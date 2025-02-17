@@ -4,6 +4,7 @@
     <v-row>
       <v-col>
         <v-autocomplete
+          color="primary"
           label="Choose any language"
           :items="['Python', 'Java', 'Ruby', 'Kotlin', 'C', 'C++']"
         >
@@ -11,6 +12,7 @@
       </v-col>
       <v-col>
         <v-autocomplete
+          color="primary"
           clearable
           chips
           label="Choose multiple"

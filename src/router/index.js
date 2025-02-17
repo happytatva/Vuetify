@@ -5,6 +5,7 @@ import DatepickerComponent from "@/components/DatepickerComponent.vue";
 import SelectComplete from "@/components/SelectComplete.vue";
 import AutocompleteComponent from "@/components/AutocompleteComponent.vue";
 import Index from "@/pages/index.vue";
+import BasicComponents from "@/components/BasicComponents.vue";
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: "/datepicker",
     name: "DatePicker",
     component: DatepickerComponent,
+  },
+  {
+    path: "/all-basics",
+    name: "All Basics",
+    component: BasicComponents,
   },
   {
     path: "/:pathMatch(.*)*",
