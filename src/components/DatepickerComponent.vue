@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h3>Datepicker Component</h3>
+    <h3 class="mb-10 text-color">Datepicker Component</h3>
     <v-row>
       <v-col>
         <v-date-picker width="100%"></v-date-picker>

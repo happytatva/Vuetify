@@ -3,7 +3,7 @@
     <v-container>
       <v-row class="align-center">
         <v-col class="text-left">
-          <a href="/" class="d-inline-block mx-2 text-primary" target="_blank">LOGO</a>
+          <a href="/" class="d-inline-block mx-2 text-primary font-weight-bold" target="_blank">LOGO</a>
         </v-col>
         <v-col class="text-right">
           <v-btn  
@@ -18,7 +18,7 @@
     </v-container>
   </div>
   <v-navigation-drawer
-    style="height: calc(100% - 118px);top:68px"
+    style="height: calc(100% - 118px); top:68px;"
     v-model="drawer"
     class="text-color"
     temporary

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h3>Autocomplete component</h3>
+    <h3 class="mb-10 text-color">Autocomplete component</h3>
     <v-row>
       <v-col>
         <v-autocomplete
@@ -15,6 +15,7 @@
           color="primary"
           clearable
           chips
+          closable-chips
           label="Choose multiple"
           :items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
           multiple>

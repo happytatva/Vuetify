@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: $white;
+  color: $ivory;
+}
+
 #app {
   text-align: center;
 }

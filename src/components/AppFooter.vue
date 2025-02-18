@@ -17,7 +17,7 @@
               :size="item.icon === '$vuetify' ? 24 : 16"
             />
           </a> -->
-          <a href="/" class="d-inline-block mx-2 text-primary" target="_blank">LOGO</a>
+          <a href="/" class="d-inline-block mx-2 text-primary font-weight-bold" target="_blank">LOGO</a>
         </v-col>
         <v-col class="text-right">
           

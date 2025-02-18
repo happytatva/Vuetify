@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h3>Customized Snackbar Component</h3>
+    <h3 class="mb-10 text-color">Customized Snackbar Component</h3>
     <v-row>
       <v-col>
         <div class="text-center ma-2">

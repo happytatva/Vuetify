@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h3>Select component</h3>
+    <h3 class="mb-10 text-color">Select component</h3>
     <v-row>
       <v-col>
         <v-select
